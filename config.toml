@@ -1,0 +1,19 @@
+baseURL = "https://secu.rdubois.fr/"
+languageCode = "fr-fr"
+title = "Sécurité système"
+enableInlineShortcodes = true
+theme = "rdubois-reveal"
+
+[params]
+download = "securite-systeme.pdf"
+
+[author]
+name = "Rémi Dubois • STI 2011"
+email = "remi@rdubois.fr"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
