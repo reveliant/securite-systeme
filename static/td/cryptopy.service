@@ -1,0 +1,13 @@
+[Unit]
+Description="Démon HMAC-SHA256"
+
+[Service]
+Type=single
+User=cryptopy
+Group=cryptosrv
+Environment="SOCKET_PATH=/run/cryptosrv/crypto.sock" "KEY_PATH=/etc/cryptosrv/key.bin"
+UMask=0007
+RuntimeDirectoryMode=0750
+RuntimeDirectory=cryptosrv
+ExecStart=/usr/bin/python3 /opt/cryptosrv/crypto.py
+

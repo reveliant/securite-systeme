@@ -1,0 +1,14 @@
+[Unit]
+Description="Démon uWGSI Crypto"
+
+[Service]
+Type=single
+User=apipy
+Group=www-data
+SupplementaryGroups=cryptosrv
+Environment="SOCKET_PATH=/run/cryptosrv/crypto.sock"
+UMask=0007
+RuntimeDirectoryMode=0750
+RuntimeDirectory=apipy
+WorkingDirectory=/opt/cryptosrv/
+ExecStart=/usr/bin/uwsgi -s /run/apipy/api.sock --plugin python3 --manage-script-name --mount /=api:app
