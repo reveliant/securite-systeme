@@ -8,4 +8,4 @@ weight: 1
     <small>Mot de passe administrateur ?</small>
 - Privilégier UEFI : SecureBoot
 - Mode 64 bits
-- Bit VT-x / AMD V seulement si visualisation nécessaire
+- Bit VT-x / AMD V seulement si virtualisation nécessaire

@@ -14,6 +14,6 @@ weight: 3
 - Plus discutable pour un serveur
 
     <small>Comment saisir la *passphrase* ?</small>
-- Prévoir un clé de séquestre (accident, réquisition judiciaire...)
+- Prévoir une clé de séquestre (accident, réquisition judiciaire...)
 
     <small>Au coffre-fort ou dans un gestionnaire de mot de passe</small>
