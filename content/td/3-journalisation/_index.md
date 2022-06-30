@@ -14,7 +14,8 @@ weight: 3
 Pour aller plus loin :
 
 - Identifier les ressources sensibles et les surveiller avec `auditd`
-- Mettre en place une pile Elasticsearch pour
+- Mettre en place une pile Elasticsearch pour indexer et faciliter la rechercher
+  dans les journaux
 
 </small>
 
