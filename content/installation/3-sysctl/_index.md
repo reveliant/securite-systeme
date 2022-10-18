@@ -4,7 +4,7 @@ bg-image: volcano.jpg
 bg-credits: https://unsplash.com/photos/Nqdx6-LW4VE
 bg-authornick: "@tobyelliott"
 bg-author: Toby Elliott
-weight: 5
+weight: 3
 ---
 Se référer aux [Recommandations de sécurité relatives à un système GNU/Linux](https://www.ssi.gouv.fr/reco-securite-systeme-linux/)
 de l'ANSSI :

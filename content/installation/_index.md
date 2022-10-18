@@ -1,10 +1,11 @@
 ---
 title: Installer un système sécurisé
-weight: 3
 bg-image: mechanics.jpg
 bg-credits: https://unsplash.com/photos/HmhztfWua-E
 bg-authornick: "@tekton_tools"
 bg-author: Tekton
+weight: 2
+showNotes: true
 ---
 ### Choisir le système en fonction :
 
