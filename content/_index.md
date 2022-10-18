@@ -13,15 +13,11 @@ bg-author: Nik Shuliahin
 
 <aside class="notes">
 
-Sujets abordés
+La sécurisation de systèmes n'est pas ma mission première
+mais je participe, à travers des missions d'audits, à
+l'application de principes de durcissement de systèmes.
 
-- principes  généraux : partitionnement, chiffrement de disque, principe de défiance
-  envers l'utilisateur
-- cloisonnement et isolation des processus : rappels et utilisation des ACL UNIX
-  et ACL étendues Linux, chroot / jail, namespace, conteneurs et VM, à la marge seccomp
-- changements d'utilisateurs : su, sudo, setuid, autres appels systèmes
-  et états internes du noyau
-- journalisation système et fonctionnelle : partition dédiée, logrotate, peut-être
-  auditd, centralisation et à la marge exploitation type ELK
+Ce sont ces principes que je vais vous présenter à travers
+ce module et vous les faire mettre en pratique sur des TD.
 
 </aside>
