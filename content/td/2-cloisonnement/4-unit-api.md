@@ -4,7 +4,7 @@ weight: 4
 ### Écrire le service systemd pour `api.py`
 
 1. Créer un service systemd pour lancer `api.py` avec uWSGI
-   <small>(`uwsgi-core(1)` et [documentation Flask](https://flask.palletsprojects.com/en/2.1.x/deploying/uwsgi/#starting-your-app-with-uwsgi))</small>
+   <small>(`uwsgi-core(1)` et [documentation Flask](https://flask.palletsprojects.com/en/2.2.x/deploying/uwsgi/#running))</small>
 
    - le service doit utiliser son compte de service et les groupes nécessaires
      pour communiquer avec le service cryptographique et Nginx

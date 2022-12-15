@@ -7,7 +7,8 @@ weight: 1
 système de fichiers
 
 - seuls les fichiers sous la nouvelle racine seront visibles
-- nécessite de recréer une arborescence FHS, et d'exposer les biliothèques
+- nécessite de recréer une arborescence FHS (`/`, `/dev`, `/proc`,
+`/sys`...), et d'exposer les biliothèques nécessaires
 - nécessite des privilèges élevés pour être utilisé (ou `CAP_SYS_CHROOT`), mais
     utiliser `root` ne respecte pas les moindre privilèges
     (<i class="fa fa-arrow-right"></i> `setuid`)

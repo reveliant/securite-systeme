@@ -16,7 +16,7 @@ physiques** (CPU, mémoire, stockage, I/O) de l'hôte.
 
 <p><br/></p>
 
-Voir aussi les[Problématiques de sécurité associées à la virtualisation des
+Voir aussi les [Problématiques de sécurité associées à la virtualisation des
 systèmes d’information](https://www.ssi.gouv.fr/virtualisation/), ANSSI
 
 <aside class="notes">

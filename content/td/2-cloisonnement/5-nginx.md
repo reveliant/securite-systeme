@@ -4,7 +4,7 @@ weight: 5
 ### Configurer Nginx
 
 1. Configurer Nginx pour communiquer avec la *socket* uWSGI
-   <small>(voir [documentation Flask](https://flask.palletsprojects.com/en/2.1.x/deploying/uwsgi/#configuring-nginx))</small>
+   <small>(voir [documentation uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/Nginx.html))</small>
 
    ```nginx
    location / { try_files $uri @cryptosrv; }
