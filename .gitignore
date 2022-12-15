@@ -1,3 +1,4 @@
 public/
 resources/
 tidy
+.hugo_build.lock
