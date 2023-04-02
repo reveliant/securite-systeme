@@ -2,7 +2,7 @@
 Description="Démon uWGSI Crypto"
 
 [Service]
-Type=single
+Type=simple
 User=apipy
 Group=www-data
 SupplementaryGroups=cryptosrv

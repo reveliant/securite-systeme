@@ -85,7 +85,7 @@ install-dependancies:
 # Crée le groupe et les utilisateurs
 create-users:
 	@echo "Création du groupe et des utilisateurs"
-	groupadd --system cryptsrv
+	groupadd --system cryptosrv
 	useradd --system --home-dir /opt/cryptosrv --no-create-home --gid cryptosrv --no-user-group --shell /usr/sbin/nologin cryptopy
 	useradd --system --home-dir /opt/cryptosrv --no-create-home --gid cryptosrv --no-user-group --shell /usr/sbin/nologin apipy
 
@@ -94,7 +94,7 @@ remove-users:
 	@echo "Suppresion des utilisateurs et du groupe"
 	userdel cryptopy
 	userdel apipy
-	groupdel cryptsrv
+	groupdel cryptosrv
 
 # Déploie les fichiers
 deploy-files: $(FINAL_KEY_PATH) $(SCRIPTS:%=$(FINAL_BIN_PATH)%) $(SERVICES:%=$(SYSTEMD_UNITS)%)

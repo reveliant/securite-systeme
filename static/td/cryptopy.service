@@ -2,7 +2,7 @@
 Description="Démon HMAC-SHA256"
 
 [Service]
-Type=single
+Type=simple
 User=cryptopy
 Group=cryptosrv
 Environment="SOCKET_PATH=/run/cryptosrv/crypto.sock" "KEY_PATH=/etc/cryptosrv/key.bin"
