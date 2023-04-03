@@ -15,7 +15,7 @@ weight: 3
   <small>(cluster d'hyperviseurs, stockage SAN...)</small>
 - coût des potentielles licences (VMware...)
 - est-ce adapté pour assurer une sécurité très élevée ?
-  <small>(confiance dans l'isolation offerte par l'hyperviseur)</small>
+  <small>(confiance dans l'isolation offerte par l'hyperviseur et le CPU)</small>
 
 <aside class="notes">
 

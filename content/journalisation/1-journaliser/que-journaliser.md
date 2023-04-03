@@ -5,7 +5,7 @@ weight: 1
 - Authentifications et élévations de privilèges
 - Gestion des comptes, rôles (groupes) et privilèges
 - Modification des stratégies de sécurité (dont journalisation)
-- Accès aux ressources sensibles (RWX + suppresion)
+- Accès aux ressources sensibles (RWX + suppression)
 - Activité des processus
   <small><i class="ml red fa fa-triangle-exclamation"></i> volumétrie</small>
 - Activité des systèmes (démarrage, modules noyau, matériel...)
@@ -18,6 +18,6 @@ weight: 1
 
 En évoquant également la sécurité réseau (en allant plus loin que ce cours),
 la conservation des *netflows* peut également apporter de l'information mais
-est particulièrement impactante en volumétrie (ceintaines de Go par jour)
+est particulièrement impactante en volumétrie (centaines de Go par jour)
 
 </aside>
