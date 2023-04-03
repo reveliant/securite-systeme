@@ -7,17 +7,12 @@ weight: 2
    pour [écrire vers systemd](https://github.com/systemd/python-systemd#notes)
    avec le `SYSLOG_IDENTIFIER='apipy'`
 
-2. Reconigurer le service `systemd` pour envoyer les
-  [journaux de uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/Logging.html#basic-logging-to-files)
-   à la poubelle
+2. Journaliser la source <small>(`request.remote_addr`)</small>
+   et le corps des requêtes ainsi que les HMAC correspondants générés
 
-3. Journaliser la source (`request.remote_addr`) et le corps des requêtes
-   ainsi que les HMAC correspondants générés
-
-4. Recharger et redémarrer le service et vérifier la journalisation :
+3. Redémarrer le service et vérifier la journalisation :
 
    ```sh
-   systemctl daemon-reload
    systemctl restart apipy.service
    journalctl -eu apipy.service
    ```

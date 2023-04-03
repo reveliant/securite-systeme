@@ -9,6 +9,7 @@ weight: 1
 
 3. [Configurer](https://github.com/systemd/python-systemd#notes)
    le *logger* racine (`logging.getLogger()`) pour le `SYSLOG_IDENTIFIER='cryptopy'`
+   à partir du niveau `logging.INFO`
 
 4. Utiliser `logging.info()` pour journaliser proprement les messages à la place
    des `print()`

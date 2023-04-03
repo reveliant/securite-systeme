@@ -8,6 +8,5 @@ Avant le **01/05/2023** 00:00:00 UTC+2
 par courriel ou dépôt GitHub ou GitLab partagé à @reveliant :
 
 - codes sources modifiés de l'application Python
-- configuration `journald` et `rsyslog` du serveur applicatif
-- configuration `rsyslog` et `systemd` du serveur de centralisation
-- exemple(s) de message arrivés sur le serveur de centralisation
+- configurations `rsyslog` des deux serveurs
+- exemples de message arrivés sur le serveur de centralisation
