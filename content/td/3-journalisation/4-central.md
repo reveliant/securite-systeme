@@ -5,12 +5,12 @@ weight: 4
 
 Sur le second serveur :
 
-1. Configurer `rsyslog` pour :
+1. Configurer `rsyslog` avec un fichier `/etc/rsyslog.d/10-central.conf` pour :
    - écouter en RELP
      ([`imrelp`](https://www.rsyslog.com/doc/v8-stable/configuration/modules/imrelp.html))
-   - enregistrer les journaux dans un fichier
-     ([`omfile`](https://www.rsyslog.com/doc/v8-stable/configuration/modules/omfile.html#action-parameters))
-     avec le nom du serveur source et la date [dans le nom du fichier](https://www.rsyslog.com/doc/v8-stable/configuration/templates.html#string)
+   - enregistrer ([`omfile`](https://www.rsyslog.com/doc/v8-stable/configuration/modules/omfile.html#action-parameters))
+     les journaux reçus dans le répertoire `/var/log/central/`
+     avec le nom du serveur source et la date [dans le nom du fichier](https://www.rsyslog.com/doc/v8-stable/configuration/templates.html#string).
 
 2. Redémarrer `rsyslog` :
 

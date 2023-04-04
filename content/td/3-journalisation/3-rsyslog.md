@@ -6,9 +6,9 @@ weight: 3
 1. Vérifier que les journaux de `cryptopy` et `apipy` remontent
    dans `/var/log/messages` via `rsyslog`.
 
-2. Configurer `rsyslog` pour :
+2. Configurer `rsyslog` avec un fichier `/etc/rsyslog.d/20-cryptosrv.conf` pour :
    - enregistrer localement ([`omfile`](https://www.rsyslog.com/doc/v8-stable/configuration/modules/omfile.html#action-parameters))
-     les journaux de `cryptopy` et `apipy`,
+     dans le répertoire `/var/log/cryptosrv/` les journaux de `cryptopy` et `apipy`,
      avec `programname` puis la date (les 10 premiers caractères du format `date-rfc3339`)
      [dans le nom du fichier](https://www.rsyslog.com/doc/v8-stable/configuration/templates.html#string)
    - et les relayer en RELP ([`omrelp`](https://www.rsyslog.com/doc/v8-stable/configuration/modules/omrelp.html))
